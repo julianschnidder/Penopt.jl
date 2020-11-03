@@ -1,4 +1,5 @@
 module Penopt
+using LinearAlgebra
 using Optim
 
 export penopt
