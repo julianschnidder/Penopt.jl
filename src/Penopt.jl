@@ -1,5 +1,5 @@
 module Penopt
-using LinearAlgebra
+using LinearAlgebra: norm
 using Optim
 
 export penopt
