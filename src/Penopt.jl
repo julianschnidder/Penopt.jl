@@ -1,6 +1,6 @@
 module Penopt
 using LinearAlgebra: norm
-using Optim
+using Optim: optimize, NelderMead, BFGS, ConjugateGradient, Options
 
 export penopt
 
